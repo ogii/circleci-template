@@ -6,7 +6,7 @@ jobs:
       - image: cimg/base:2021.07
     steps:
       - checkout
-      - run: echo1
+      - run: echo "test"
 
 workflows:
   workflow1:
